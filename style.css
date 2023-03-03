@@ -242,42 +242,42 @@ footer{
     grid-template-columns: repeat(4, 1fr);
 }
 
-.pic1{
+.picture1{
     width: 563.57px;
     height: 544.16px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 1;
 }
-.pic2{
+.picture2{
     width: 564.51px;
     height: 544.16px;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row: 1;
 }
-.pic4{
+.picture4{
     width: 564.51px;
     height: 544.16px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 2;
 }
-.pic3{
+.picture3{
     width: 563.57px;
     height: 544.16px;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row: 2;
 }
-.pic4{
+.picture4{
     width: 564.51px;
     height: 544.16px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 3;
 }
-.pic5{
+.picture5{
     width: 563.57px;
     height: 544.16px;
     grid-column-start: 3;
