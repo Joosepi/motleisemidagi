@@ -29,13 +29,13 @@ header a{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    font-weight: 400;
+    font-weight: 4rem;
     font-size: 22.1541px;
     line-height: 27px;
 }
 
 .logo{
-    font-weight: 600;
+    font-weight: 6rem;
     font-size: 22.1541px;
     line-height: 27px;
 }
@@ -53,13 +53,13 @@ main{
     text-align: center;
     width: 762.29px;
     height: 66px;
-    font-weight: 400;
+    font-weight: 4rem;
     font-size: 34.8438px;
     line-height: 95.52%;
 }
 
 .first_title{
-    width: 385px;
+    width: 3rem 86px;
     height: 92px;
     font-weight: 400;
     font-size: 96px;
@@ -67,7 +67,7 @@ main{
 }
 
 .second_title{
-    width: 273px;
+    width: 2rem 78px;
     height: 92px;
     font-weight: 400;
     font-size: 96px;
@@ -84,7 +84,7 @@ main{
 }
 
 .third_title{
-    width: 391px;
+    width: 3rem 91px;
     height: 92px;
     font-weight: 400;
     font-size: 96px;
@@ -231,9 +231,9 @@ footer{
     line-height: 95.52%;
 }
 
-.terms_priv{
+.TermsOfService{
     display: flex;
-    gap: 99px;
+    gap: 89px;
 }
 
 .pictures{
@@ -285,6 +285,7 @@ footer{
     grid-row: 3;
 }
 
+
 .people{
     display: flex;
 }
@@ -293,3 +294,5 @@ footer{
     width: 279.32px;
     height: 374.46px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
