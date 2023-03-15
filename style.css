@@ -12,6 +12,9 @@ body{
     font-family: 'Inter';
     font-style: normal;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
@@ -53,11 +56,11 @@ main{
 
 .first_text{
     text-align: center;
-    width: 762.29px;
     height: 66px;
     font-weight: 4rem;
     font-size: 34.8438px;
     line-height: 95.52%;
+    
 }
 
 .title_one{
@@ -77,7 +80,7 @@ main{
 }
 
 .second_text{
-    width: 1117.79px;
+    width: 500.79px;
     height: 170.46px;
     font-weight: 300;
     font-size: 31.3802px;
@@ -296,16 +299,139 @@ footer{
     height: 374.46px;
 }
 
-@media screen and (max-width: 700px) {
-    .pictures {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-}
 
-@media screen and (max-width: 1024px) {
-    .pictures{
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+    
+    body{
+        height: 1502px;
+        gap: 30px;
+        
+    }
+
+    .header_but {
+        z-index: 1;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+
+    .header_but {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header_buttons a {
+        display: block;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: solid 1px #fff;
+    }
+
+    header{
+        margin: 36px 34px;
+    }
+
+    .first_text{
+        font-weight: 400;
+        font-size: 11px;
+    }
+    
+    .title_one, .title_second, .title_third, .contact_title{
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .second_text{
+        font-weight: 400;
+        font-size: 8px;
+    }
+
+    .contact_info{
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    footer {
         display: flex;
-        flex-direction: column;
-    }}
+        justify-content: center;
+        background-color: black;
+    }
+
+    .year{
+        font-weight: 700;
+        font-size: 11px;
+        color: #fff;
+    }
+
+    .terms_priv{
+        display: none;
+    }
+
+    .picholder{
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .pictures{
+        overflow-y: hidden;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .pictures a, .pictures img{
+        width: 209px;
+        height: 202px;
+    }
+
+    .people{
+        overflow-y: hidden;
+        display: flex;
+        gap: 5px;
+    }
+
+    .people img{
+        width: 109px;
+        height: 147px;
+    }
+
+    .info{
+        overflow-y: hidden;
+        display: flex;
+        gap: 5px;
+    }
+
+    .info_title{
+        font-weight: 700;
+        font-size: 15px;
+        padding-bottom: 5px;
+        padding: 0px;
+    }
+
+    .info_text{
+        font-weight: 400;
+        font-size: 7px;
+        padding-bottom: 20px;
+        padding: 0px;
+    }
+
+    .info_quote{
+        font-weight: 400;
+        font-size: 7px;
+        padding: 0px;
+    }
+
+    .web_dev, .product, .graphic, .mobile_app{
+        width: 141px;
+        height: 131px;
+        flex-shrink: 0;
+        padding: 10px;
+    }
+    
+}
