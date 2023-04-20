@@ -136,48 +136,6 @@ main{
     grid-row: 2;
 }
 
-.info{
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-    color: black;
-}
-
-.contact_title{
-    display: flex;
-    font-weight: 400;
-    font-size: 96px;
-}
-
-.contact_info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-weight: 400;
-    font-size: 64px;  
-    padding-bottom: 3em; 
-}
-
-footer{
-    padding: 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white ;
-}
-
-.year {
-    color: black;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.terms, .privacy{
-    color: black;
-    font-weight: 300;
-    font-size: 20px;
-}
 
 .terms_priv{
     display: flex;
@@ -226,6 +184,50 @@ footer{
     grid-row: 3;
 }
 
+.info{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    color: black;
+}
+
+.contact_title{
+    display: flex;
+    font-weight: 400;
+    font-size: 96px;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 64px;  
+    padding-bottom: 3em; 
+}
+
+footer{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white ;
+}
+
+.year {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.terms, .privacy{
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
 .people{
     display: flex;
 }
@@ -267,7 +269,6 @@ footer{
 
     .header_buttons {
         display: none;
-        position: absolute;
         top: 70px;
         left: 0;
         right: 0;
